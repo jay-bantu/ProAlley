@@ -12,7 +12,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            Footer
+            
 
         </footer>
     )
