@@ -1,0 +1,23 @@
+{
+  "name": "proalley",
+  "version": "1.0.0",
+  "description": "Mern shopping site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jay-bantu/ProAlley.git"
+  },
+  "author": "jaybantu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jay-bantu/ProAlley/issues"
+  },
+  "homepage": "https://github.com/jay-bantu/ProAlley#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
