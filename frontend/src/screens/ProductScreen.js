@@ -1,6 +1,6 @@
 import axios from 'axios'
 import React ,{useState, useEffect} from 'react'
-import { Col, Row, Image, ListGroup, Card, Button } from 'react-bootstrap'
+import { Col, Row, Image, ListGroup, Button } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import Rating from '../components/Rating'
 
@@ -17,7 +17,7 @@ const ProductScreens = ({match}) => {
         } 
         fetchProduct()
 
-    }, [])
+    }, [match])
     
     return (
         <>
