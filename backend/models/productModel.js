@@ -19,7 +19,7 @@ const productSchema = mongoose.Schema({
         type: String,
         reqiuired: true,
     },
-    emage : {
+    image : {
         type: String,
         reqiuired: true
     },

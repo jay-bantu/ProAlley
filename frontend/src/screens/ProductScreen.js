@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 import Rating from '../components/Rating'
 
 const ProductScreens = ({match}) => {
-    const [product, setProduct] = useState({})
+    const [product, setProduct] = useState([])
 
 
     useEffect(()=>{
@@ -18,6 +18,9 @@ const ProductScreens = ({match}) => {
         fetchProduct()
 
     }, [match])
+    console.log(product)
+
+    
     
     return (
         <>
